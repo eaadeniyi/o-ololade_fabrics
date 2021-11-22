@@ -83,3 +83,7 @@ footer a {
 .form-signin {
     background-color: #ebe1ce;
 }
+iframe{
+    width: 100%;
+    height: auto;
+}
