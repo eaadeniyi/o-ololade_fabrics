@@ -4,11 +4,11 @@ body {
  }
 
 .header {
-    background-color: #FEF1D7;
+    background-color: #E2BE1C;
 }
 
 .awesome {
-    color: #917c50;
+    color: #2B281A;
     margin-right: 2%;
     cursor: pointer;
 }
@@ -18,9 +18,9 @@ body {
     margin: 5%;
 }
 .main-page {
-    background-color: #FED686;
+    background-color: #F2E092;
     background-size:contain;
-    color: rgb(44, 40, 40);
+    color: #2B281A;
 }
 
 .main-page img {
@@ -57,31 +57,36 @@ body {
     color: white;
 }
 
+.contactus-page {
+    background-color: #F4E5A4;
+}
+
+
 .collection-page {
-    background-color: #FED686;
+    background-color: #F4E5A4;
     background-size:contain;
-    color: rgb(44, 40, 40);
+    color: #2B281A;
 }
 
 .aboutus-page {
-    background-color: #FED686;
+    background-color: #F4E5A4;
     background-size: contain;
     color: rgb(44, 40, 40);
 }
 
 footer {
-    background-color:rgb(36, 33, 33);
-    color: white;
+    background-color:#2B281A;
+    color: #E2BE1C;
     background-size: cover;
 }
 
 footer a {
     text-decoration:none;
-    color: white;
+    color: #E2BE1C;
 }
 
 .form-signin {
-    background-color: #ebe1ce;
+    background-color: #E9CB49;
 }
 iframe{
     width: 100%;
