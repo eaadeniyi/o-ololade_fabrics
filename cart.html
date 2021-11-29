@@ -51,7 +51,7 @@
         </div>
         <div class="cart-page row">
             <div class= "col-md-5">
-                <img  class="img-fluid" src="images/blue-handbag1.jpg">
+                <img  class="img-fluid" id="product-item" src="images/blue-handbag1.jpg">
             </div>
             <div class= "offset-md-2 col-md-5">
                 <p><strong> RECENT PRODUCTS</strong></p>
@@ -70,9 +70,9 @@
 
                     <div class="form-inline">
                         <p style="float: left;"><strong>Quantity:</strong></p>
-                        <button type="button" id="-" class="btn btn-light">-</button>
-                        <button type="button" id="1" class="btn btn-light">1</button>
-                        <button type="button" id="+" class="btn btn-light">+</button>
+                        <button type="button" id="-" class="btn btn-light" value="-" onclick="qtyItems('-')">-</button>
+                        <button type="button" id="value" class="btn btn-light" >1</button>
+                        <button type="button" id="+" class="btn btn-light" value="+" onclick="qtyItems('+')">+</button>
                     </div>
 
                 </div>

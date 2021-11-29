@@ -9,8 +9,14 @@ body {
 
 .awesome {
     color: #2B281A;
-    margin-right: 2%;
     cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .Awesomee {
+        display: block;
+    }
+    
 }
 
 .main-text {
@@ -92,3 +98,6 @@ iframe{
     width: 100%;
     height: auto;
 }
+
+
+
