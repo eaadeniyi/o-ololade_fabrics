@@ -8,11 +8,13 @@
     <link rel= "stylesheet" href="css/bootstrap.css">
     <link rel= "stylesheet" href="css/styles.css">
     <link rel= "stylesheet" href="fontawesome/css/all.css">
+    <link rel= "stylesheet" type="text/css" href="css/slick.css">
+    <link rel= "stylesheet" type="text/css" href="css/slick-theme.css">
 </head>
 <body>
     
     <div class= "container-fluid">
-      <div class= "header" id="Home">
+        <div class= "header" id="Home">
             <nav class="header navbar  fixed-top navbar-expand-lg navbar-light">
                 <div class="container-fluid">
                   <a class="navbar-brand" href="#" >O-Ololade Fabrics</a>
@@ -54,8 +56,8 @@
             </nav>
         </div>
 
-        <div class="main-page row">
-            <div class="col-6 mx-auto">
+        <div class="main-page row mx-auto">
+            <div class="col-md-6">
                 <div class="main-text">
                     <h2>
                         Comfortable and Stylish clothes for everyone.
@@ -66,10 +68,15 @@
                
             </div>
 
-            <div class="col-6">
-                <img src="images/smiling-lady.jpg" class="img-fluid mx-auto">
+            <div class="col-md-6 productSlide">
+              <div class="slide1"><img src="images/handbag-brown2.jpg" class="img-fluid "></div> 
+              <div class="slide2"><img src="images/yellow-love-sunglasses.jpg" class="img-fluid"></div>  
+              <div class="slide3"><img src="images/sunglasses.jpg" class="img-fluid "></div>  
+              <div class="slide4"><img src="images/yellow-sunglasses.jpg" class="img-fluid"></div>  
+              <div class="slide5"><img src="images/white-corporatebag.jpg" class="img-fluid"></div>  
             </div>
         </div>
+        
 
         <div class="collection-page" id="collection">
             <div class="row">
@@ -173,7 +180,7 @@
               <div class="col-4 col-md">
                 <h5>Help</h5>
                 <ul class="list-unstyled text-small">
-                  <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">FAQ'S</a></li>
+                  <li class="mb-1"><a class="link-secondary text-decoration-none" href="/faq.html">FAQ'S</a></li>
                   <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Privacy Policy</a></li>
                   <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Terms & Conditions</a></li>
                 </ul>
@@ -183,13 +190,25 @@
                 <ul class="list-unstyled text-small">
                   <li class="mb-1"><a class="link-secondary text-decoration-none" href="#about-us">About Us</a></li>
                   <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Locations</a></li>
-                  <li class="mb-1"><a class="link-secondary text-decoration-none" href="#contact-us">Contact Us</a></li>
+                  <li class="mb-1"><a class="link-secondary text-decoration-none" href="/contactus.html">Contact Us</a></li>
                 </ul>
               </div>
             </div>
-          </footer>
+        </footer>
     </div>
 
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>    
+    <script type="text/javascript" src = "js/slick.min.js"></script>
     <script src="js/script.js"> </script>
+    <script type="text/javascript">
+      $('.productSlide').slick({
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 2000,
+        });
+    
+    </script>
 </body>
 </html>
