@@ -152,8 +152,14 @@ details[open] summary ~ * {
 .mapLocation iframe {
     width: 1000px; 
     height: 400px;
+    
 }
-
+@media screen and (max-width: 768px) {
+    .mapLocation iframe {
+        width: 100%;
+    height: auto;
+    }
+}
 .mapLocation {
     margin: 5% 0;
 }
@@ -168,4 +174,27 @@ details[open] summary ~ * {
 
 .fa-whatsapp-square{
     color: rgb(16, 170, 16);
+}
+
+.dashboard a{
+    color: rgb(219, 158, 78);
+}
+
+.dashboard a:hover {
+    border-bottom: 3px solid #E2BE1C;
+    background-color: #f0db7f;
+    color: white;
+}
+
+.dashboard img {
+    width: 10%;
+    height:auto;
+}
+
+.user_profile {
+    border-right : 2px solid orange;
+}
+
+.order_Details {
+    border-right : 2px solid orange;
 }
