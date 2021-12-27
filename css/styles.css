@@ -198,3 +198,22 @@ details[open] summary ~ * {
 .order_Details {
     border-right : 2px solid orange;
 }
+
+.order-details img {
+    width: 50%;
+    height: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .order-details img{
+        width: 100%;
+        height: auto;
+    }
+}
+
+.order-details th {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.order-details p {vertical-align:bottom;text-align:center;}
